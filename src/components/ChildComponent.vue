@@ -1,6 +1,6 @@
 <script setup>
    const props  = defineProps(['message']);
-   const emit   = defineEmits(['update:modelValu']);
+   const emit   = defineEmits(['update:modelValue']);
 
    function messageEmitted (){
      props.name = emit('update:message','Hi I am a Vue Learner!')
